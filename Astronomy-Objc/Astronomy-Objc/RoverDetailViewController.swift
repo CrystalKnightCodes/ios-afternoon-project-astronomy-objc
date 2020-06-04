@@ -10,13 +10,20 @@ import UIKit
 
 class RoverDetailViewController: UIViewController {
 
+    @IBOutlet var photoImageView: UIImageView!
+    @IBOutlet var detailLabel: UILabel!
+    @IBOutlet var cameraLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func savePhoto(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

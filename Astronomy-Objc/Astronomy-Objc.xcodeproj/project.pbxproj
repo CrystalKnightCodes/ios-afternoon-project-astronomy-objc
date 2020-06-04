@@ -16,6 +16,10 @@
 		BA89DB1C2488917400CD8794 /* RoverDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA89DB1B2488917400CD8794 /* RoverDetailViewController.swift */; };
 		BA89DB1E2488918D00CD8794 /* RoverCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA89DB1D2488918D00CD8794 /* RoverCollectionViewController.swift */; };
 		BA89DB20248891C800CD8794 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA89DB1F248891C800CD8794 /* Rover.swift */; };
+		BA89DB23248896AB00CD8794 /* CATMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89DB22248896AB00CD8794 /* CATMarsPhoto.m */; };
+		BA89DB26248896C400CD8794 /* CATSolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89DB25248896C400CD8794 /* CATSolDescription.m */; };
+		BA89DB29248896DB00CD8794 /* CATCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89DB28248896DB00CD8794 /* CATCache.m */; };
+		BA89DB2C248896F200CD8794 /* CATCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89DB2B248896F200CD8794 /* CATCamera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,14 @@
 		BA89DB1B2488917400CD8794 /* RoverDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverDetailViewController.swift; sourceTree = "<group>"; };
 		BA89DB1D2488918D00CD8794 /* RoverCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCollectionViewController.swift; sourceTree = "<group>"; };
 		BA89DB1F248891C800CD8794 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		BA89DB21248896AB00CD8794 /* CATMarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATMarsPhoto.h; sourceTree = "<group>"; };
+		BA89DB22248896AB00CD8794 /* CATMarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATMarsPhoto.m; sourceTree = "<group>"; };
+		BA89DB24248896C400CD8794 /* CATSolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATSolDescription.h; sourceTree = "<group>"; };
+		BA89DB25248896C400CD8794 /* CATSolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATSolDescription.m; sourceTree = "<group>"; };
+		BA89DB27248896DB00CD8794 /* CATCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATCache.h; sourceTree = "<group>"; };
+		BA89DB28248896DB00CD8794 /* CATCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATCache.m; sourceTree = "<group>"; };
+		BA89DB2A248896F200CD8794 /* CATCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATCamera.h; sourceTree = "<group>"; };
+		BA89DB2B248896F200CD8794 /* CATCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATCamera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,14 @@
 				BA89DB1B2488917400CD8794 /* RoverDetailViewController.swift */,
 				BA89DB1D2488918D00CD8794 /* RoverCollectionViewController.swift */,
 				BA89DB1F248891C800CD8794 /* Rover.swift */,
+				BA89DB21248896AB00CD8794 /* CATMarsPhoto.h */,
+				BA89DB22248896AB00CD8794 /* CATMarsPhoto.m */,
+				BA89DB24248896C400CD8794 /* CATSolDescription.h */,
+				BA89DB25248896C400CD8794 /* CATSolDescription.m */,
+				BA89DB27248896DB00CD8794 /* CATCache.h */,
+				BA89DB28248896DB00CD8794 /* CATCache.m */,
+				BA89DB2A248896F200CD8794 /* CATCamera.h */,
+				BA89DB2B248896F200CD8794 /* CATCamera.m */,
 				BA89DB0A24888BFC00CD8794 /* Assets.xcassets */,
 				BA89DB0C24888BFC00CD8794 /* LaunchScreen.storyboard */,
 				BA89DB0F24888BFC00CD8794 /* Info.plist */,
@@ -153,10 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA89DB26248896C400CD8794 /* CATSolDescription.m in Sources */,
 				BA89DB1E2488918D00CD8794 /* RoverCollectionViewController.swift in Sources */,
 				BA89DB0024888BFA00CD8794 /* AppDelegate.m in Sources */,
 				BA89DB20248891C800CD8794 /* Rover.swift in Sources */,
+				BA89DB23248896AB00CD8794 /* CATMarsPhoto.m in Sources */,
+				BA89DB29248896DB00CD8794 /* CATCache.m in Sources */,
 				BA89DB1124888BFC00CD8794 /* main.m in Sources */,
+				BA89DB2C248896F200CD8794 /* CATCamera.m in Sources */,
 				BA89DB1C2488917400CD8794 /* RoverDetailViewController.swift in Sources */,
 				BA89DB0324888BFA00CD8794 /* SceneDelegate.m in Sources */,
 			);

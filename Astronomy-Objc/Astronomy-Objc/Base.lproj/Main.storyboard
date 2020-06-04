@@ -75,7 +75,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ILF-ur-oJv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="897.10144927536237" y="-4.0178571428571423"/>
+            <point key="canvasLocation" x="732" y="-4"/>
         </scene>
         <!--Title-->
         <scene sceneID="SNa-i3-oCi">
@@ -111,6 +111,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nY0-gE-Ede">
                                 <rect key="frame" x="133.5" y="654" width="147" height="30"/>
                                 <state key="normal" title="Save to Photo Library"/>
+                                <connections>
+                                    <action selector="savePhoto:" destination="UQx-XX-RJB" eventType="touchUpInside" id="BQF-hU-7dc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcT-Kp-Rrv">
                                 <rect key="frame" x="120" y="604.5" width="105.5" height="20.5"/>
@@ -134,10 +137,15 @@
                         <viewLayoutGuide key="safeArea" id="Ukh-y4-1eA"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="U17-WX-C4j"/>
+                    <connections>
+                        <outlet property="cameraLabel" destination="PcT-Kp-Rrv" id="hHN-Ia-QeY"/>
+                        <outlet property="detailLabel" destination="yhi-VX-Adg" id="WWf-L7-SGQ"/>
+                        <outlet property="photoImageView" destination="wze-Wv-lOa" id="F13-40-U7J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RN4-RJ-VJj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683" y="-4"/>
+            <point key="canvasLocation" x="1510" y="-4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ocN-e6-SbW">
